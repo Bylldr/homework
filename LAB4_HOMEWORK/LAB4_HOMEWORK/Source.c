@@ -9,5 +9,6 @@ int main()
 	scanf("%f", &x);
 	printf("Время за которое мальчик пробежал расстояние:%.2f", 4 * 3 * x);
 	getchar();
+	system("pause");
 
 }

@@ -1,2 +1,3 @@
 ﻿  Source.c
+C:\Users\Виктор\source\repos\LAB3_HOMEWORK\LAB3_HOMEWORK\Source.c(14,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
   LAB3_HOMEWORK.vcxproj -> C:\Users\Виктор\source\repos\LAB3_HOMEWORK\x64\Debug\LAB3_HOMEWORK.exe

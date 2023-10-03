@@ -9,8 +9,9 @@ int main()
 	scanf("%f", &road);
 	puts("Введите стоимость бензина:");
 	scanf("%f", &price);
-	printf("Стоимость поездки:%.2f", price * road);
+	printf("Стоимость поездки:%.2f\n", price * road);
 	getchar();
+	system("pause");
 	
 
 }
