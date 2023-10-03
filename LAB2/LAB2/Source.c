@@ -7,7 +7,7 @@ int main()
 	setlocale(LC_CTYPE, "RUS");
 	float L = 353;
 	float n = 2;
-	printf("Дано:\n\t%.f\n\t%.f\n____________\nОтвет:\n\t+%d%.4f",n,L,(int)n/(int)L,n/L);
+	printf("Дано:\n  %10d\n  %10d\n \t_________\nОтвет:\n\t%+08.4f",(int)n,(int)L,n/L);
 	getchar();
 	
 	
