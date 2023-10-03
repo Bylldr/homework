@@ -11,5 +11,6 @@ int main()
 	scanf("%f", &price);
 	printf("Стоимость поездки:%.2f", price * road);
 	getchar();
+	
 
 }
