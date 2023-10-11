@@ -1,0 +1,6 @@
+﻿  Source.c
+C:\Users\Виктор\source\repos\LAB5_AND_LAB6\LAB5_AND_LAB6\Source.c(12,6): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Виктор\source\repos\LAB5_AND_LAB6\LAB5_AND_LAB6\Source.c(10,8): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Виктор\source\repos\LAB5_AND_LAB6\LAB5_AND_LAB6\Source.c(10,32): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\Виктор\source\repos\LAB5_AND_LAB6\LAB5_AND_LAB6\Source.c(36,2): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+  LAB5_AND_LAB6.vcxproj -> C:\Users\Виктор\source\repos\LAB5_AND_LAB6\x64\Debug\LAB5_AND_LAB6.exe
