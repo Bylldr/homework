@@ -4,21 +4,34 @@
 #include <stdio.h>
 #include <locale.h>
 
-void field();// функция создания игровго поля
+void field(int TRY);// функция создания игровго поля
 
 int main ()
 {
+	int TRY;
 	setlocale(LC_CTYPE, "RUS");
-	field();
+	field(3);
 	return 0;
 }
 
+
 void field()
 {
+	int TRY = 3;
 	char str1[7] = { 'B','D', 'C', 'A', 'A',' ','D' };//Колонка букв слева от сетки
 	char str2[7] = { 'A','B', 'E', 'C', ' ','D',' ' };//Колонка букв справа от сетки
 	char field[ROW][COLS];//Игровой массив
-	char finish = ' ',temp =' ';
+	char answers[ROW][COLS] = {
+	{'B','C','E','_','D','_','A'},
+	{'_','D','C','A','_','E','B'},
+	{'C','_','A','B','_','D','E'},
+	{'_','A','B','D','E','C','_'},
+	{'A','B','D','E','C','_','_'},
+	{'E','_','_','C','B','A','D'},
+	{'D','E','_','_','A','B','C'},
+
+	};
+	char finish = ' ', temp = ' ';
 	int x, y;
 	for (int i = 0; i < ROW; i++)
 	{
@@ -28,7 +41,9 @@ void field()
 
 		}
 	}
-	while (finish != '!')
+
+
+	while (TRY != 0||answers!=field)
 	{
 		puts("Введите номер строки: ");
 		scanf("%d", &x);
@@ -37,21 +52,28 @@ void field()
 		puts("Введите значние: ");
 		getchar();
 		scanf("%c", &temp);
-		field[x][y] = temp;
-		for (int i = 0; i < ROW; i++)
+		if (temp == answers[x][y])
 		{
-			printf("\t%c", str1[i]);
-			for (int j = 0; j < COLS; j++)
+			field[x][y] = temp;
+			for (int i = 0; i < ROW; i++)
 			{
-				printf("|%c|", field[i][j]);
-				if (j == 6)
-					printf(" %c", str2[i]);
+				printf("\t%c", str1[i]);
+				for (int j = 0; j < COLS; j++)
+				{
+					printf("|%c|", field[i][j]);
+					if (j == 6)
+						printf(" %c", str2[i]);
+				}
+				puts("\n");
+
 			}
-			puts("\n");
 
 		}
-		getchar();
-		puts("Для завершения работы программы введите '!'");
-		scanf("%c", &finish);
+		else
+		{
+			puts("Неверный ход");
+			TRY--;
+			printf("Осталось попыток: %d\n", TRY);
+		}
 	}
 }
