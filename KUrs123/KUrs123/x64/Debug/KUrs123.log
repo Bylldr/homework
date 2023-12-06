@@ -1,6 +1,18 @@
 ﻿  Source.c
-C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(13,6): warning C4101: TRY: неиспользованная локальная переменная
-C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(18,16): warning C4028: формальный параметр 1 отличается от объявления
-C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(18,36): warning C4028: формальный параметр 2 отличается от объявления
-C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(35,1): warning C4026: функция объявлена со списком формальных параметров
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(124,20): warning C4473: "printf": передано недостаточно аргументов для строки формата
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(124,20): message : заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 0
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(124,20): message : отсутствующий вариативный аргумент "1" требуется для строки форматирования "%d"
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(132,21): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(132,21): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(132,21): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%c"
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(132,21): message : этот аргумент используется в качестве размера буфера
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(186,21): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(186,21): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(186,21): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%c"
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(186,21): message : этот аргумент используется в качестве размера буфера
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(237,21): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(237,21): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(237,21): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%c"
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(237,21): message : этот аргумент используется в качестве размера буфера
+C:\Users\Виктор\source\repos\KUrs123\KUrs123\Source.c(113,20): warning C4101: repeat: неиспользованная локальная переменная
   KUrs123.vcxproj -> C:\Users\Виктор\source\repos\KUrs123\x64\Debug\KUrs123.exe
